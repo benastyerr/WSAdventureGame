@@ -2449,3 +2449,40 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.02.14-11.42.50:103][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 2.10 sec)
 [2023.02.14-11.42.50:108][638]AssetCheck: New page: Asset Save: W_PressAnyKey
 [2023.02.14-11.42.50:108][638]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_PressAnyKey.W_PressAnyKey
+[2023.02.14-11.44.04:427][ 58]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.14-11.44.04:427][ 58]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.14-11.44.04:427][ 58]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.14-11.44.05:703][ 58]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2023.02.14-11.44.05:715][ 58]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.02.14-11.44.05:719][ 58]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.02.14-11.44.05:726][ 59]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.02.14-11.44.09:622][293]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> W_MainMenu
+[2023.02.14-11.44.09:627][293]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.02.14-11.44.10:680][356]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2023.02.14-11.44.10:681][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.14-11.44.10:689][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.14-11.44.11:055][356]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.14-11.44.11:055][356]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.14-11.44.23:197][ 80]BlueprintLog: New page: Compile W_MainMenu
+[2023.02.14-11.44.23:274][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.02.14-11.45.18:643][778]LogSlate: Window 'W_MainMenu' being destroyed
+[2023.02.14-11.45.18:651][778]LogSlate: Window 'W_MainMenu' being destroyed
+[2023.02.14-11.45.18:659][778]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.02.14-11.45.18:659][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-11.45.18:670][778]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.02.14-11.45.18:670][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-11.45.18:720][778]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.02.14-11.45.18:720][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-11.45.18:765][778]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.02.14-11.45.18:765][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-11.45.18:811][778]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.02.14-11.45.18:811][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-11.45.18:820][778]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.02.14-11.45.18:820][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-11.45.53:300][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.14-11.45.53:333][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="C:/Projects PROG/Unreal/WSAdventure/WSAdventureGame/NautilusStory/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2023.02.14-11.45.53:336][831]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2023.02.14-11.45.53:336][831]LogSavePackage: Moving 'C:/Projects PROG/Unreal/WSAdventure/WSAdventureGame/NautilusStory/Saved/W_MainMenuB238E90742FCFB791957B5872CD6F17A.tmp' to 'C:/Projects PROG/Unreal/WSAdventure/WSAdventureGame/NautilusStory/Content/Widgets/W_MainMenu.uasset'
+[2023.02.14-11.45.53:344][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 2.14 sec)
+[2023.02.14-11.45.53:351][831]AssetCheck: New page: Asset Save: W_MainMenu
+[2023.02.14-11.45.53:351][831]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
